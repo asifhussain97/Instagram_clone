@@ -1,0 +1,359 @@
+
+.side-bar{
+    width: 16%;
+    height: 707px;
+    position: fixed ;
+    border-right:  1px solid;
+    border-color: rgb(57, 57, 57);
+    float: left;
+}
+.logo{
+    height: 15%;
+    width: 100%;
+}
+.logo-text{
+    width: 103px;
+    height: 29px;
+    margin-top: 40px;
+    margin-left: 24px;
+    mix-blend-mode: difference;
+}
+.icons{
+    height: 85%;
+    width: 100%;
+
+}
+
+.button-home{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 18px;
+    background: black;
+    color: white;
+    height: 45px;
+    width: 85%;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0px;
+}
+.buttons{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 11px;
+    text-align: left;
+    margin-left: 18px;
+    background: black;
+    color: white;
+    height: 45px;
+    width: 85%;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0px;
+}
+.button-more{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 95px;
+    text-align: left;
+    margin-left: 18px;
+    background: black;
+    color: white;
+    height: 45px;
+    width: 85%;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0px;
+}
+.profile{
+    mix-blend-mode: exclusion;
+}
+.button-home:hover{
+    background: rgb(33, 33, 33);
+}
+.buttons:hover{
+    background: rgb(33, 33, 33);
+}
+.button-more:hover{
+    background: rgb(33, 33, 33);
+}
+.middle{
+    float: left;
+    padding-left: 244px;
+    padding-top: 45px;
+    width: 835px;
+}
+.story-bar{
+    display: flex;
+    margin-left: 105px;
+    width: 670px;
+}
+.story{
+    margin-left: 17px;
+    cursor: pointer;
+}
+.content{
+    padding-top: 40px;
+    margin-left: 205px;
+    margin-top: 20px;
+    width: 470px;
+    align-content: center;
+}
+
+.post1{
+    width: 470px;
+    border-bottom: 1px solid;
+    border-color: rgb(57, 57, 57);
+    margin-bottom: 20px;
+}
+.post-head{
+    float: left;
+    display: flex;
+    height: 50px;
+}
+.post-left{
+    float: left;
+    display: flex;
+    width: 446px;
+}
+.profile-pic{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-name{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    height: 12px;
+    font-size: 14px;
+    line-height: 5px;
+    cursor: pointer;
+}
+.time{
+    margin-left: 5px;
+    height: 22px;
+    font-size: 14px;
+    margin-top: 2px;
+    color: grey;
+    cursor: pointer;
+}
+.location{
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 20px;
+    left: 489px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.video{
+    border-radius: 5px;
+    width: 470px;
+    cursor: pointer;
+}
+.image{
+    border-radius: 5px;
+    width: 470px;
+}
+.like-comment-share{  
+    margin-top: 7px;
+}
+.like-icon{
+    margin-right: 10px; 
+}
+.like-icon:hover{
+    cursor: pointer;
+    fill: rgb(168, 168, 168);
+}
+.like-icon:active{
+    fill: red;
+}
+.reaction{
+    margin-right: 10px;
+}
+.reaction:hover{
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
+
+.save{
+    margin-left: 330px;
+}
+.save:hover{
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
+
+.likes{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.comment{
+    margin-top: 2px;
+    width: 470px;
+}
+.comment-name{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.comment-name:hover{
+    color: rgb(168, 168, 168);
+}
+.comments{
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+}
+
+.details{
+    display: flex;
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.comment-input{
+    color: black;
+    height: 18px;
+    width: 440px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.comment-input:focus{
+    outline: none;
+}
+.comment-emoji{
+    margin-left: 0px;
+}
+.comment-emoji:hover{
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1275px;
+    height: 122px;
+    
+}
+.footer-details{
+
+    font-size: 13px;
+    color: rgb(168, 168, 168);
+}
+.footer-details:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.select-box{
+    margin-top: 14px;
+    height: 20px;
+    border: none;
+    font-size: 13px;
+    color: rgb(168, 168, 168); 
+    background: #ffffff00;
+}
+.select-box:hover{
+    cursor: pointer;
+    outline: none;
+}
+.select-box:focus{
+    outline: none;
+}
+.right-side{
+    padding-top: 40px;
+    height: 700px;
+    width: 440px;
+    display: flex;    
+    flex-direction: column;
+
+}
+.follow-list{
+    width: 320px;
+    height: 420px;
+    margin-top: 15px;
+
+}
+.right-profile-name{
+    margin: 0px; 
+    font-size: 14px; 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+}
+.right-name{
+    margin: 0px; 
+    color: rgb(168, 168, 168); 
+    font-size: 14px;
+    display: flex;
+}
+.right-list{
+    margin: 0px; 
+    color: rgb(168, 168, 168); 
+    font-size: 12px;
+    display: flex;
+}
+.right-side-right{
+    display: flex;
+    align-items: center;
+    height: 16px;
+    margin-top: 12px;
+    font-size: 13px;
+}
+.follow-button{
+    color: rgb(0,149, 246);;
+}
+.follow-button:hover{
+    cursor: pointer;
+    color: white;
+}
+.suggestion-box{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.see-all{
+    color: white; 
+    line-height: 50px; 
+    font-size: 12px; 
+}
+.see-all:hover{
+    color: rgb(115,115,115);
+    cursor: pointer; 
+}
+.right-footer{
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+
+}
+.right-footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
